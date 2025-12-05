@@ -77,15 +77,14 @@ Passion to Learn!
 
  or
 
- Use CURL Utility:
+   Use CURL Utility:
 
-`curl --location 'https://<api-id>.execute-api.<region>.amazonaws.com/dev/files?fileName=test.txt' \
---header 'Content-Type: text/plain' \
---data 'Hello World in Cloud!'`
+        curl --location 'https://<api-id>.execute-api.<region>.amazonaws.com/dev/files?fileName=test.txt' \
+        --header 'Content-Type: text/plain' \
+        --data 'Hello World in Cloud!'
 
-Download a File
+   Download a File
 
-      Use Postman or another HTTP client:
-`GET to https://.execute-api..amazonaws.com/dev/files?fileName=test.txt`
-
-      Verify file content is returned correctly.
+       Use Postman or another HTTP client:
+       GET to https://.execute-api..amazonaws.com/dev/files?fileName=test.txt
+       Verify file content is returned correctly.
